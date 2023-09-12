@@ -3,5 +3,3 @@ function sqareArea(input) {
     let area = a * a;
     console.log(area);
 }
-
-sqareArea(["5"]);
