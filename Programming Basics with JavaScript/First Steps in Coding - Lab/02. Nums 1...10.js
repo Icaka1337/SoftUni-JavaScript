@@ -10,6 +10,3 @@ function nums(){
     console.log(9);
     console.log(10);
 }
-
-
-nums();
