@@ -19,4 +19,3 @@ function cinema(input) {
         console.log(`${(totalPeople*discount).toFixed(2)} leva`);
     }
 }
-Added exercises to Conditional Statements-Exercise
