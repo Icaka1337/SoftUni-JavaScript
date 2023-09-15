@@ -5,9 +5,9 @@ function maxNumber(input) {
     while (num != "Stop") {
         num = Number(num);
         if (num > maxNum) {
-            maxNum=num;
+            maxNum = num;
         }
-        num=input.shift();
+        num = input.shift();
     }
 
     console.log(maxNum)
