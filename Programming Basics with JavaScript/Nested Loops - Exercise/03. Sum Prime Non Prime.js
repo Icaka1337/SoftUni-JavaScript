@@ -1,4 +1,4 @@
-function sumPrimeNonPrime (input) {
+function sumPrimeNonPrime(input) {
     let n = input.shift();
 
     let primeSum = 0;
