@@ -22,7 +22,6 @@ function examPreparation(input) {
         averageGrade += grade;
         lastTask = name;
     }
-
     if (totalBadGrades<maxBadGrades) {
         console.log(`Average score: ${(averageGrade/totalGrades).toFixed(2)}`);
         console.log(`Number of problems: ${totalGrades}`);
