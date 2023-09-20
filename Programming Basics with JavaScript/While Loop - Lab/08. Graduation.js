@@ -19,6 +19,7 @@ function graduation(input) {
             gradeCount++;
         }
     }
+    
     averageGrades /= gradeCount;
 
     if (gradeCount == 12) {
