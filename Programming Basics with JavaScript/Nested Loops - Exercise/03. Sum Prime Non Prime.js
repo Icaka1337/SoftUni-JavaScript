@@ -24,7 +24,6 @@ function sumPrimeNonPrime(input) {
         }
         n = input.shift();
     }
-
     console.log(`Sum of all prime numbers is: ${primeSum}`);
     console.log(`Sum of all non prime numbers is: ${nonPrimeSum}`);
 }
