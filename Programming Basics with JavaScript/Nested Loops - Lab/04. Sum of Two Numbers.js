@@ -18,7 +18,6 @@ function sumOfTwoNumbers(input) {
             break;
         }
     }
-
     if (foundMagicNum == false) {
         console.log(`${combinationsCount} combinations - neither equals ${magicNum}`);
     }
