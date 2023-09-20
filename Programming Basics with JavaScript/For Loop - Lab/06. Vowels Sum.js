@@ -2,8 +2,8 @@ function vowelsSum(input) {
   let text = input.shift();
   let sum = 0;
 
-  for (let index = 0; index < text.length; index++) {
-    switch (text[index]) {
+  for (const element of text) {
+    switch (element) {
       case "a":
         sum += 1;
         break;
