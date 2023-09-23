@@ -9,7 +9,6 @@ function echoType (input) {
         
     }else {
         console.log(type)
-        console.log(`Parameter is not suitable for printing.`)
+        console.log(`Parameter is not suitable for printing`)
     }
 }
-echoType(null);
